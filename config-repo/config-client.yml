@@ -2,7 +2,8 @@ env: no_suffix
 management:
   endpoints:
     web:
-      expose: "*"
+      exposure:
+        include: bus-refresh
 spring:
   rabbitmq:
     host: localhost
