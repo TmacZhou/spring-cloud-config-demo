@@ -1,4 +1,4 @@
-profile: dev6
+profile: dev7
 eureka:
   client:
     service-url:
